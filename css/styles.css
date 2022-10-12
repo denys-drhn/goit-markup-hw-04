@@ -9,6 +9,7 @@
 	--addrees-color: rgba(255, 255, 255, 0.6);
 	--main-button-accent-color: #188CE8;
 	--border-color: #ECECEC;
+	--background-hero-color: #C4C4C4;
 }
 
 .visually-hidden {
@@ -164,7 +165,23 @@ margin-left: 93px;
 
 /* Hero */
 .hero{
-	background-color:var(--secondary-background-color);
+	background-color: var(--background-hero-color);
+	}
+
+.hero-background {
+	max-width: 1600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-image: linear-gradient(to right, 
+	rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+	url('../images/hero-image.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-container{
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -214,8 +231,9 @@ margin-left: 93px;
 }
 
 
-
 /* Features */
+
+
 
 .features-list{
 	display: flex;
