@@ -323,7 +323,7 @@ margin-top: 50px;
 
 .team-card {
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 16px;
 }
 
 .team-name{
@@ -342,6 +342,36 @@ margin-bottom: 10px;
 	text-align: center;
 }
 
+
+.social-list {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding-bottom: 30px;
+}
+
+.social-item {}
+
+.social-link {
+	width: 44px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.social-link:hover{
+	background-color: var(--accent-color);
+}
+
+.social-icon{
+	fill: #AFB1B8;
+}
+
+.social-link:hover .social-icon{
+	fill: var(--main-white-color);
+}
 
 
 /* footer */
