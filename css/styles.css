@@ -265,6 +265,20 @@ margin-left: 93px;
 	margin-right: 0;
 }
 
+.features-rectangle{
+	width: 270px;
+	height: 120px;
+	background-color: var(--team-background-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.features-icon{
+	
+}
+
 .features-title{
 	font-weight: 700;
 	font-size: 14px;
@@ -292,10 +306,6 @@ margin-left: 93px;
 	text-align: center;
 }
 
-/* .technology-title{
-	text-align: center;
-} */
-
 .technology-list{
 	display: flex;
 	margin-top: 50px;
@@ -314,10 +324,6 @@ margin-left: 93px;
 .team-section{
 	background-color:var(--team-background-color);
 }
-
-/* .team-title{
-	text-align: center;
-} */
 
 .team-list{
 display: flex;
