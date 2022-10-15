@@ -10,6 +10,7 @@
 	--main-button-accent-color: #188CE8;
 	--border-color: #ECECEC;
 	--background-hero-color: #C4C4C4;
+	--icons-color: #AFB1B8;
 }
 
 .visually-hidden {
@@ -288,11 +289,12 @@ margin-left: 93px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
-}
-
-.technology-title{
 	text-align: center;
 }
+
+/* .technology-title{
+	text-align: center;
+} */
 
 .technology-list{
 	display: flex;
@@ -313,9 +315,9 @@ margin-left: 93px;
 	background-color:var(--team-background-color);
 }
 
-.team-title{
+/* .team-title{
 	text-align: center;
-}
+} */
 
 .team-list{
 display: flex;
@@ -364,7 +366,6 @@ margin-bottom: 10px;
 	padding-bottom: 30px;
 }
 
-.social-item {}
 
 .social-link {
 	width: 44px;
@@ -375,19 +376,54 @@ margin-bottom: 10px;
 	border-radius: 50%;
 }
 
-.social-link:hover{
+.social-link:hover,
+.social-link:focus{
 	background-color: var(--accent-color);
 }
 
 .social-icon{
-	fill: #AFB1B8;
+	fill: var(--icons-color);
 }
 
-.social-link:hover .social-icon{
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
 	fill: var(--main-white-color);
 }
 
+/* CUSTOMERS */
 
+.customers-title{
+	margin-bottom: 50px;
+}
+
+.customers-list{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.customers-link{
+	width: 170px;
+	height: 92px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border: 1px solid #AFB1B8;
+	border-radius: 4px;
+}
+
+.customers-icon{
+	fill: var(--icons-color);
+}
+
+.customers-link:hover{
+	border: 1px solid #2196F3;
+}
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon{
+	fill: var(--accent-color);
+}
 /* footer */
 
 .page-footer {
