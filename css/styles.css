@@ -543,7 +543,7 @@ margin-bottom: 10px;
 
 /* portfolio-work */
 /* калькулятор для лучшей верстки:
-calc (100% - {	сумма зазоров в строке в * значение маржина}px) / количество Єлементов в строке */
+calc (100% - {	сумма зазоров в строке * значение маржина}px) / количество элементов в строке */
 
 .portfolio-work{
 	display: flex;
@@ -559,13 +559,6 @@ calc (100% - {	сумма зазоров в строке в * значение �
 	margin-bottom: 30px;
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-		0px 4px 4px rgba(0, 0, 0, 0.06),
-		1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .portfolio-item:nth-child(3n) {
 	margin-right: 0;
 }
@@ -577,10 +570,15 @@ calc (100% - {	сумма зазоров в строке в * значение �
 .portfolio-link {
 	text-decoration: none;
 	color: inherit;
+	display: block;
 }
 
-
-
+.portfolio-link:hover,
+.portfolio-link:focus{
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+			0px 4px 4px rgba(0, 0, 0, 0.06),
+			1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .portfolio-card{
 	padding: 20px 24px;
