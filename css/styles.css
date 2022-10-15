@@ -35,7 +35,7 @@ body{
 }
 
 h1,
-h2,
+h2, 
 h3,
 h4,
 h5,
@@ -432,6 +432,10 @@ margin-bottom: 10px;
 	padding-bottom: 60px;
 }
 
+.footer-container{
+	display: flex;
+	align-items: baseline;
+}
 .logo-footer{
 	color: var(--main-white-color);
 }
@@ -459,6 +463,47 @@ margin-bottom: 10px;
 .phone-footer {
 	color: var(--addrees-color);
 	margin-top: 9px;
+}
+
+.footer-network{
+	margin-left: 70px;
+	width: 206px;
+	height: 80px;
+}
+
+.network-title{
+	font-weight: 700;
+	line-height: 1.14;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: var(--main-white-color);
+	margin-bottom: 20px;
+}
+
+.network-list {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	}
+
+
+.network-link {
+	width: 44px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.network-link:hover,
+.network-link:focus {
+	background-color: var(--accent-color);
+}
+
+.network-icon {
+	fill: var(--main-white-color);
 }
 
 /* portfolio */
