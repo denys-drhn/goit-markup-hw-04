@@ -166,14 +166,14 @@ margin-left: 93px;
 
 .address-link{
 	display: flex;
-	fill: var(--secondary-text-color);
+	fill: currentColor;
 	align-items: center;
 	gap: 10px;
 }
 
 .phone-link{
 	display: flex;
-	fill: var(--secondary-text-color);
+	fill: currentColor;
 	align-items: center;
 	gap: 10px;
 }
